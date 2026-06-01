@@ -168,7 +168,7 @@ export const EXPERIENCE: Experience[] = [
     period:   'Nov 2025 – Jan 2026',
     location: 'Remote',
     bullets: [
-      'Built web and SaaS applications with Vue 3, React, TypeScript, and Tailwind CSS, including the BagYo logistics platform.',
+      'Built web and SaaS applications with Vue 3, React, TypeScript, and Tailwind CSS, including the BagYo(Startup) logistics platform.',
       'Developed dashboards, API integrations, and optimized frontend performance and UI workflows',
     ],
   },
@@ -220,30 +220,29 @@ export const PROJECTS: Project[] = [
     title: 'AETHER',
     tech:  ['React', 'Three Fiber', 'Tailwind', 'Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'JWT', 'Zustand'],
     desc:  'A 3D Digital Workspace — full-stack SaaS architecture with lazy loading, Zustand state management, and smooth 60 FPS rendering. The world\'s most immersive productivity tool.',
-    link:  'https://github.com/shalemn4/AetherDesk_3D_workspace.git',   // ← replace with your actual project URL
+    link:  'https://github.com/shalemn4/AetherDesk_3D_workspace.git', 
   },
   {
     num:   '02',
     title: 'AUTOLIFE AI',
     tech:  ['FastAPI', 'Multi-Agent', 'MCP Routing', 'OpenAI', 'Python'],
     desc:  'Smart Daily Automation System — AI-powered assistant with multi-agent architecture. Handles expense, reminder, and scheduler agents through intent processing and MCP-based routing.',
-    link:  'https://github.com/shalemn4/AutoLife_AI.git',   // ← replace with your actual project URL
+    link:  'https://github.com/shalemn4/AutoLife_AI.git',  
+  },
+  { 
+    num:   '03',
+    title: 'BagYo Startup Landing Page',
+    tech:  ['Vue 3', 'TypeScript', 'Tailwind CSS', 'Vite'],
+    desc:  'Frontend MVP for a modern luggage logistics startup. Features a highly responsive, minimalist geometric UI design, optimized 2D animations, and type-safe component architecture for rapid asset delivery.',
+    link:  'https://github.com/shalemn4/BagYO.git',
   },
   {
-    num:   '03',
+    num:   '04',
     title: 'REAL-TIME CHAT',
     tech:  ['React', 'Node.js', 'Express', 'Socket.io', 'JWT', 'AWS S3', 'Cloudinary'],
     desc:  'Multi-user real-time chat with JWT authentication and cloud-based file sharing. Live messaging, media uploads, and secure sessions — all in one system.',
-    link:  'https://github.com/shalemn4/Nexus_Chat.git',   // ← empty = arrow won't show
-  },
-  // ── ADD MORE PROJECTS HERE ──────────────────────────────
-  // {
-  //   num:   '04',
-  //   title: 'YOUR PROJECT NAME',
-  //   tech:  ['React', 'Node.js'],
-  //   desc:  'Description of what you built.',
-  //   link:  'https://your-live-link.com',
-  // },
+    link:  'https://github.com/shalemn4/Nexus_Chat.git',  
+  }
 ]
 
 // ─────────────────────────────────────────────────────────
@@ -270,36 +269,14 @@ export const CERTIFICATIONS: Certification[] = [
     name:          'Google Gen AI APAC Region',
     issuer:        'Google Cloud',
     year:          '2026',
-    credentialUrl: 'https://drive.google.com/file/d/1TbySPd7Md-L6wNB0wRdQEfjQITsXkAjD/view?usp=sharing',  // ← replace with your actual credential link
+    credentialUrl: 'https://drive.google.com/file/d/1TbySPd7Md-L6wNB0wRdQEfjQITsXkAjD/view?usp=sharing',
     badge:         'GCP',
   },
   {
     name:          'Full stack MERN',
     issuer:        'Acmegrade',
     year:          '2023',
-    credentialUrl: 'https://drive.google.com/file/d/1dIJBLZlbgglSDH22VI4VKt837SPKH5My/view?usp=sharing',  // ← replace with your actual credential link
+    credentialUrl: 'https://drive.google.com/file/d/1dIJBLZlbgglSDH22VI4VKt837SPKH5My/view?usp=sharing', 
     badge:         'Acmegrade',
-  },
-  // ── ADD MORE CERTIFICATIONS HERE ────────────────────────
-  // {
-  //   name:          'AWS Certified Developer',
-  //   issuer:        'Amazon Web Services',
-  //   year:          '2024',
-  //   credentialUrl: 'https://aws.amazon.com/certification/',
-  //   badge:         'AWS',
-  // },
-  // {
-  //   name:          'Meta Frontend Developer',
-  //   issuer:        'Meta',
-  //   year:          '2023',
-  //   credentialUrl: '',
-  //   badge:         'META',
-  // },
-  // {
-  //   name:          'React - The Complete Guide',
-  //   issuer:        'Udemy',
-  //   year:          '2023',
-  //   credentialUrl: 'https://udemy.com/certificate/...',
-  //   badge:         'UDEMY',
-  // },
+  }
 ]

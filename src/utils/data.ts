@@ -161,6 +161,18 @@ export const EXPERIENCE: Experience[] = [
       'Developed SaaS-style applications (Cloud Notes, Auth Portal) with cloud-ready design',
     ],
   },
+
+  {
+    company:  'BagYO',
+    role:     'Frontend Developer',
+    period:   'Nov 2025 – Jan 2026',
+    location: 'Remote',
+    bullets: [
+      'Built web and SaaS applications with Vue 3, React, TypeScript, and Tailwind CSS, including the BagYo logistics platform.',
+      'Developed dashboards, API integrations, and optimized frontend performance and UI workflows',
+    ],
+  },
+
   {
     company:  'Linchpin Organization',
     role:     'Software Engineer — Front End',

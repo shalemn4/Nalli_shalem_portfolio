@@ -61,8 +61,16 @@ export const SKILLS: Skill[] = [
     tags: ['Real-time', 'Live Updates', 'WebSockets', 'Chat Systems'],
   },
   {
-    name: 'Python',
-    tags: ['Backend', 'Scripting', 'API Development', 'Automation'],
+    name: 'Java',
+    tags: ['Backend', 'Object-Oriented Programming (OOP)', 'API Development', 'Spring Boot'],
+  },
+  {
+    name: 'C#',
+    tags: ['Backend', 'Unity Game Development', 'API Development', '.NET Development'],
+  },
+  {
+    name: 'C',
+    tags: ['Procedural Programming', 'Data Structures', 'System Programming', 'Memory Management'],
   },
 
   // Database
@@ -159,6 +167,7 @@ export const EXPERIENCE: Experience[] = [
     bullets: [
       'Built responsive web apps using Vue 3, TypeScript, and Vite',
       'Developed SaaS-style applications (Cloud Notes, Auth Portal) with cloud-ready design',
+      'Contributed frontend enhancements and bug fixes to the open-source AI agent platform Aden Hive',
     ],
   },
 
@@ -168,8 +177,9 @@ export const EXPERIENCE: Experience[] = [
     period:   'Nov 2025 – Jan 2026',
     location: 'Remote',
     bullets: [
-      'Built web and SaaS applications with Vue 3, React, TypeScript, and Tailwind CSS, including the BagYo(Startup) logistics platform.',
-      'Developed dashboards, API integrations, and optimized frontend performance and UI workflows',
+      'Contributed to the development of the BagYo startup platform using React and TypeScript',
+      'Implemented authentication workflows, dashboard features, and backend API integrations',
+      'Built reusable UI components and maintained scalable frontend architecture',
     ],
   },
 
@@ -179,8 +189,9 @@ export const EXPERIENCE: Experience[] = [
     period:   'Dec 2023 – Apr 2025',
     location: 'Bangalore, India',
     bullets: [
-      'Led frontend development using Vue 3 + TypeScript',
-      'Improved tracking efficiency by 30% through task automation',
+      'Led frontend development of the organization’s website using Vue.js and TypeScript',
+    'Built reusable UI components and responsive layouts for a consistent user experience',
+    'Collaborated with designers and developers to deliver production-ready features',
     ],
   },
   {
@@ -189,8 +200,9 @@ export const EXPERIENCE: Experience[] = [
     period:   'Jul 2023 – Sep 2023',
     location: 'Noida, Uttar Pradesh',
     bullets: [
-      'Developed responsive web pages using HTML, CSS, JavaScript',
-      'Collaborated on UI/UX implementation and debugging',
+      'Developed responsive web pages using HTML, CSS, and JavaScript',
+    'Converted UI designs into functional and user-friendly frontend interfaces',
+    'Assisted in debugging, testing, and frontend performance optimization',
     ],
   },
 ]
@@ -219,28 +231,28 @@ export const PROJECTS: Project[] = [
     num:   '01',
     title: 'AETHER',
     tech:  ['React', 'Three Fiber', 'Tailwind', 'Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'JWT', 'Zustand'],
-    desc:  'A 3D Digital Workspace — full-stack SaaS architecture with lazy loading, Zustand state management, and smooth 60 FPS rendering. The world\'s most immersive productivity tool.',
+    desc:  'A 3D productivity workspace built with React Three Fiber, featuring real-time interactions, Zustand state management, JWT authentication, and a full-stack SaaS architecture powered by Node.js, MongoDB, and PostgreSQL',
     link:  'https://github.com/shalemn4/AetherDesk_3D_workspace.git', 
   },
   {
     num:   '02',
     title: 'AUTOLIFE AI',
     tech:  ['FastAPI', 'Multi-Agent', 'MCP Routing', 'OpenAI', 'Python'],
-    desc:  'Smart Daily Automation System — AI-powered assistant with multi-agent architecture. Handles expense, reminder, and scheduler agents through intent processing and MCP-based routing.',
+    desc:  'An AI-powered automation assistant built with FastAPI and OpenAI, using multi-agent workflows and MCP-based routing to manage scheduling, reminders, and task automation through natural language commands',
     link:  'https://github.com/shalemn4/AutoLife_AI.git',  
   },
   { 
     num:   '03',
     title: 'BagYo Startup Landing Page',
     tech:  ['Vue 3', 'TypeScript', 'Tailwind CSS', 'Vite'],
-    desc:  'Frontend MVP for a modern luggage logistics startup. Features a highly responsive, minimalist geometric UI design, optimized 2D animations, and type-safe component architecture for rapid asset delivery.',
+    desc:  'A startup landing page built with Vue 3 and TypeScript, featuring responsive design, optimized animations, and reusable components focused on performance and maintainability',
     link:  'https://github.com/shalemn4/BagYO.git',
   },
   {
     num:   '04',
     title: 'REAL-TIME CHAT',
     tech:  ['React', 'Node.js', 'Express', 'Socket.io', 'JWT', 'AWS S3', 'Cloudinary'],
-    desc:  'Multi-user real-time chat with JWT authentication and cloud-based file sharing. Live messaging, media uploads, and secure sessions — all in one system.',
+    desc:  'A real-time messaging platform built with React, Node.js, and Socket.io, supporting JWT authentication, cloud file sharing, media uploads, and low-latency communication',
     link:  'https://github.com/shalemn4/Nexus_Chat.git',  
   }
 ]

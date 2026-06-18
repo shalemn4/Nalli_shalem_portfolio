@@ -229,27 +229,34 @@ export interface Project {
 export const PROJECTS: Project[] = [
   {
     num:   '01',
+    title: 'Ledger AI (Live)',
+    tech:  ['Next.js', 'TypeScript', 'Tailwind', 'Zustand', 'FastAPI', 'PostgreSQL', 'pgvector', 'JWT'],
+    desc:  'An auditable AI workspace where every run prompt, agent plan, retrieved context, tool calls, and output is recorded as an immutable trace and replayable step by step, with a multi-agent pipeline and RAG source inspector.',
+    link:  'https://ledger-ai-beryl.vercel.app',
+  },
+  {
+    num:   '02',
     title: 'AETHER',
     tech:  ['React', 'Three Fiber', 'Tailwind', 'Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'JWT', 'Zustand'],
     desc:  'A 3D productivity workspace built with React Three Fiber, featuring real-time interactions, Zustand state management, JWT authentication, and a full-stack SaaS architecture powered by Node.js, MongoDB, and PostgreSQL',
     link:  'https://github.com/shalemn4/AetherDesk_3D_workspace.git', 
   },
   {
-    num:   '02',
+    num:   '03',
     title: 'AUTOLIFE AI',
     tech:  ['FastAPI', 'Multi-Agent', 'MCP Routing', 'OpenAI', 'Python'],
     desc:  'An AI-powered automation assistant built with FastAPI and OpenAI, using multi-agent workflows and MCP-based routing to manage scheduling, reminders, and task automation through natural language commands',
     link:  'https://github.com/shalemn4/AutoLife_AI.git',  
   },
   { 
-    num:   '03',
+    num:   '04',
     title: 'BagYo Startup Landing Page',
     tech:  ['Vue 3', 'TypeScript', 'Tailwind CSS', 'Vite'],
     desc:  'A startup landing page built with Vue 3 and TypeScript, featuring responsive design, optimized animations, and reusable components focused on performance and maintainability',
     link:  'https://github.com/shalemn4/BagYO.git',
   },
   {
-    num:   '04',
+    num:   '05',
     title: 'REAL-TIME CHAT',
     tech:  ['React', 'Node.js', 'Express', 'Socket.io', 'JWT', 'AWS S3', 'Cloudinary'],
     desc:  'A real-time messaging platform built with React, Node.js, and Socket.io, supporting JWT authentication, cloud file sharing, media uploads, and low-latency communication',

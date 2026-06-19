@@ -160,9 +160,9 @@ export interface Experience {
 
 export const EXPERIENCE: Experience[] = [
   {
-    company:  'Freelancer',
-    role:     'Software Developer / Designer',
-    period:   'Oct 2023 – Present',
+    company:  'Freelance (Forward-Deployed)',
+    role:     'Full-Stack & AI Engineer ',
+    period:   'Feb 2025 – Present',
     location: 'India',
     bullets: [
       'Built responsive web apps using Vue 3, TypeScript, and Vite',
@@ -174,7 +174,7 @@ export const EXPERIENCE: Experience[] = [
   {
     company:  'BagYO',
     role:     'Frontend Developer',
-    period:   'Nov 2025 – Jan 2026',
+    period:   'Nov 2025 – Feb 2026',
     location: 'Remote',
     bullets: [
       'Contributed to the development of the BagYo startup platform using React and TypeScript',
@@ -186,7 +186,7 @@ export const EXPERIENCE: Experience[] = [
   {
     company:  'Linchpin Organization',
     role:     'Software Engineer — Front End',
-    period:   'Dec 2023 – Apr 2025',
+    period:   'Dec 2023 – Nov 2025',
     location: 'Bangalore, India',
     bullets: [
       'Led frontend development of the organization’s website using Vue.js and TypeScript',

@@ -27,6 +27,10 @@ export const SKILLS: Skill[] = [
     tags: ['SPA', 'Hooks', 'Component Architecture', 'UI Dev'],
   },
   {
+    name: 'SvelteKit',
+    tags: ['Svelte 5', 'Runes', 'SSR', 'TypeScript', 'App Development'],
+  },
+  {
     name: 'Vue.js',
     tags: ['Vue 3', 'Composition API', 'Reactive UI', 'TypeScript'],
   },

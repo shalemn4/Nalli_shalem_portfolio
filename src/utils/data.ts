@@ -253,6 +253,13 @@ export const PROJECTS: Project[] = [
     link: 'https://cloud-hunt.vercel.app',
   },
   {
+  num: '04',
+  title: 'UBUNTU WEB PERFORMANCE LAB',
+  tech: ['React', 'TypeScript', 'Vite', 'Tailwind', 'Node.js', 'Fastify', 'REST API', 'Docker', 'Docker Compose', 'Nginx', 'Ubuntu', 'Bash', 'systemd'],
+  desc: 'A Linux-focused web performance and operations dashboard built in Ubuntu 24.04, providing real-time system health, CPU and memory metrics, disk usage, application health, service monitoring, endpoint performance, error tracking, and deployment diagnostics through a React/TypeScript interface backed by a Fastify REST API and containerized with Docker and Nginx.',
+  link: 'https://github.com/shalemn4/Ubuntu-web-performance.git',
+  },
+  {
     num:   '04',
     title: 'AUTOLIFE AI',
     tech:  ['FastAPI', 'Multi-Agent', 'MCP Routing', 'OpenAI', 'Python'],

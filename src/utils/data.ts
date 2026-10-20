@@ -244,7 +244,7 @@ export const PROJECTS: Project[] = [
     tech:  ['React', 'TypeScript', 'React Flow', 'Monaco Editor', 'FastAPI', 'Python', 'PostgreSQL', 'Kubernetes', 'Docker', 'Helm'],
     desc:  'A reproducible computational research infrastructure platform for designing, validating, and executing scientific workflows, featuring a visual DAG workflow builder, YAML-based workflow specifications, schema validation, Kubernetes-powered execution, immutable provenance tracking, artifact management, and run-to-run reproducibility verification.',
     link:  'https://rerpovia.vercel.app',
-  }
+  },
   {
     num:   '03',
     title: 'SHIELDIQ (Live)',
